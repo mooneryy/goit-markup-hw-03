@@ -42,10 +42,18 @@ img {
 }
 
 .container {
-   width: 1158px;
+    display: flex;
+    max-width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
-} 
+}
+
+.container-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 0;
+}
+
 
 .visually-hidden {
     position: absolute;
@@ -61,13 +69,20 @@ img {
     overflow: hidden;
 }
 
+.page-header{
+    display: flex;
+    justify-content: space-between;
+        align-items: center;
+}
+
 .header-nav-bar {
     background-color: #FFFFFF;
     display: flex;
     align-items: center;
-    justify-content: space;
-    width: 100%;
-    max-width: 1440px;
+    width: 1156px;
+        height: 72px;
+        flex-shrink: 0;
+    /* max-width: 1440px; */
 
 }
 
@@ -84,6 +99,7 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     width: 44px;
+    margin-right: 76px;
     margin-left: 156px;
     margin-bottom: 25.5px;
     padding-top: 25.5px;
@@ -100,10 +116,9 @@ img {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    align-items: flex-start;
     flex-wrap: wrap;
     align-content: stretch;
-    gap: 20px 40px;
+    gap: 20px;
 }
 
 .navigation-link-item-name {
@@ -113,7 +128,7 @@ img {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-left: 76px;
+    margin-left: 73px;
 
 
 }
@@ -123,13 +138,17 @@ img {
     color: #404BBF;
 }
 
+
 .address {
     font-style: normal;
 }
 
 .address-list {
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-end; 
+    margin-top: 24px;
+    margin-bottom: 24px;
+    gap: 30px;
 
 }
 
@@ -140,6 +159,8 @@ img {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    /* display: inline; */
+   margin-top: 24px;
 
 }
 
@@ -150,6 +171,8 @@ img {
 
 .hero-section {
     background: #2E2F42;
+    /* width: 1440px; */
+        flex-shrink: 0;
 }
 
 .hero-title {
@@ -160,15 +183,28 @@ img {
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    width: 496px;
+    padding-top: 188px;
+    margin-left: 472px;
+    margin-bottom: 48px;
+    margin-right: 472px;
 }
 
 .hero-button {
+    display: inline-flex;
+    padding: 16px 32px;
+    margin-left: 636px;
+    margin-right: 635px;
+    margin-bottom: 188px;
+    align-items: flex-start;
+    gap: 10px;
     background-color: #4D5AE5;
     cursor: pointer;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff
+    
 }
 
 
@@ -197,6 +233,9 @@ img {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    padding-top: 120px;
+    padding-bottom: 8px;
+    display: flex;
 }
 
 .benefits-list-item-text {
@@ -206,6 +245,11 @@ img {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    display: flex;
+        width: 264px;
+        flex-direction: row;
+        align-items: stretch;
+        gap: 8px 24px;
 }
 
 .team-section {
@@ -308,8 +352,5 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-
-
-
 
 
