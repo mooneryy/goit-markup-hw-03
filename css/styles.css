@@ -42,7 +42,7 @@ img {
 }
 
 .container {
-    display: flex;
+    /* display: flex; */
     max-width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
@@ -54,6 +54,10 @@ img {
     padding: 24px 0;
 }
 
+
+.studio, .team, .portfolio{
+    padding: 120px 0;
+}
 
 .visually-hidden {
     position: absolute;
@@ -72,10 +76,13 @@ img {
 .page-header{
     display: flex;
     justify-content: space-between;
-        align-items: center;
+    align-items: center;
+    padding-top: 25.5px;
+    padding-bottom: 25.5px;
 }
 
 .header-nav-bar {
+    border-bottom: 1px solid #E7E9FC;
     background-color: #FFFFFF;
     display: flex;
     align-items: center;
@@ -101,8 +108,7 @@ img {
     width: 44px;
     margin-right: 76px;
     margin-left: 156px;
-    margin-bottom: 25.5px;
-    padding-top: 25.5px;
+
 
 
 }
@@ -146,8 +152,8 @@ img {
 .address-list {
     display: flex;
     justify-content: flex-end; 
-    margin-top: 24px;
-    margin-bottom: 24px;
+    padding-top: 24px;
+    padding-bottom: 24px;
     gap: 30px;
 
 }
@@ -185,7 +191,7 @@ img {
     letter-spacing: 0.02em;
     width: 496px;
     padding-top: 188px;
-    margin-left: 472px;
+    margin-left: 331px;
     margin-bottom: 48px;
     margin-right: 472px;
 }
@@ -193,20 +199,27 @@ img {
 .hero-button {
     display: inline-flex;
     padding: 16px 32px;
-    margin-left: 636px;
-    margin-right: 635px;
+    margin-top: 48px;
+    margin-left: 480px;
+    margin-right: 480px;
     margin-bottom: 188px;
-    align-items: flex-start;
+    align-items: center;
     gap: 10px;
+    border-radius: 4px;
     background-color: #4D5AE5;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     cursor: pointer;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff
-    
 }
 
+
+.hero-button:hover,
+.hero-button:focus {
+    background-color: #404BBF;
+}
 
 .hero-button-name {
     color: #FFFFFF;
@@ -215,15 +228,17 @@ img {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    width: 169px;
 }
 
-.hero-button:hover,
-.hero-button:focus {
-    background-color: #404BBF;
-}
 
 .benefits-section {
     background: #FFFFFF;
+}
+
+.benefits-list{
+    display: flex;
+    gap: 24px;
 }
 
 .benefits-list-item-name {
@@ -236,6 +251,7 @@ img {
     padding-top: 120px;
     padding-bottom: 8px;
     display: flex;
+    width: 264px;
 }
 
 .benefits-list-item-text {
@@ -246,14 +262,17 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     display: flex;
-        width: 264px;
-        flex-direction: row;
-        align-items: stretch;
-        gap: 8px 24px;
+    width: 264px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
 }
 
 .team-section {
     background-color: #F4F4FD;
+    /* max-width: 1440px;  */
+height: 732px;
+flex-shrink: 0;
 }
 
 
@@ -266,10 +285,29 @@ img {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    margin-top: 240px;
+    margin-bottom: 72px;
+    margin-left: 480px;
+    margin-right: 480px;
+    padding-top: 120px;
+}
+
+.team-list{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 0px;
+    gap:24px;
+    column-gap: 32px;;
 }
 
 .team-list-item {
     background-color: #FFFFFF;
+        border-radius: 0px 0px 4px 4px;
+            background: var(--WHITE, #FFF);
+            box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .team-list-item-name {
@@ -280,6 +318,8 @@ img {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-top: 32px;
+
 }
 
 .team-list-item-text {
@@ -290,6 +330,8 @@ img {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding-bottom: 32px;
+    padding-top: 8px;
 }
 
 .portfolio-section {
@@ -305,10 +347,24 @@ img {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    margin-top: 120px;
+    margin-bottom: 72px;
+}
+
+.portflio-list{
+display: flex;
+    flex-wrap: wrap;
+    row-gap: 48px;
+    column-gap: 24px;
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .portflio-list-item {
     background-color: #FFFFFF;
+    border: 1px solid  #E7E9FC;      
+    
 }
 
 .portflio-list-item-name {
@@ -318,6 +374,8 @@ img {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-top: 32px;
+    margin-bottom: 8px;
 }
 
 .portflio-list-item-text {
