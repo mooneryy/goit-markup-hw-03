@@ -20,7 +20,7 @@ ol {
 }
 
 h1,
-h2, 
+h2,
 h3,
 h4,
 h5,
@@ -32,7 +32,20 @@ p {
 
 img {
     display: block;
+    max-width: 100%;
+    height: auto;
 }
+
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.container {
+   width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+} 
 
 .visually-hidden {
     position: absolute;
@@ -58,7 +71,7 @@ img {
 
 }
 
-.navigation{
+.navigation {
     display: flex;
 }
 
@@ -83,14 +96,14 @@ img {
     width: 71px;
 }
 
-.navigation-list{
-display: flex;
-flex-direction: row;
-justify-content: flex-start;
-align-items: flex-start;
-flex-wrap: wrap;
-align-content: stretch;
-gap: 20px 40px;
+.navigation-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    align-content: stretch;
+    gap: 20px 40px;
 }
 
 .navigation-link-item-name {
@@ -101,7 +114,7 @@ gap: 20px 40px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     margin-left: 76px;
-    
+
 
 }
 
@@ -114,7 +127,7 @@ gap: 20px 40px;
     font-style: normal;
 }
 
-.address-list{
+.address-list {
     display: flex;
     justify-content: flex-end;
 
@@ -127,7 +140,7 @@ gap: 20px 40px;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    
+
 }
 
 .address-list-item-name:hover,
@@ -298,15 +311,5 @@ gap: 20px 40px;
 
 
 
-.section {
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
 
- /* .container {
-    display: flex; 
-    max-width: 1158px;
-    padding-left:
-    padding-right:
-    margin: 
-}  */
+
