@@ -50,7 +50,7 @@ img {
 }
 
 .container-header {
-    
+border-bottom: 1px solid #E7E9FC;
     display: flex;
     justify-content: space-between;
     padding: 24px 0;
@@ -88,7 +88,7 @@ img {
 }
 
 .header-nav-bar {
-    border-bottom: 1px solid #E7E9FC;
+    
     background-color: #FFFFFF;
     display: flex;
     align-items: center;
@@ -192,6 +192,7 @@ img {
 
 .hero-section {
     background: #2E2F42;
+    padding: 188px 0;
     flex-shrink: 0;
 }
 
@@ -203,7 +204,7 @@ img {
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    width: 496px;
+    max-width: 496px;
     padding-top: 188px;
     margin-left: 331px;
     margin-bottom: 48px;
@@ -211,7 +212,10 @@ img {
 }
 
 .hero-button {
-    display: inline-flex;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
     padding: 16px 32px;
     margin-top: 48px;
     margin-left: 480px;
@@ -248,6 +252,7 @@ img {
 
 .benefits-section {
     background: #FFFFFF;
+    padding: 120px 0;
 }
 
 .benefits-list {
@@ -264,7 +269,7 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     padding-top: 120px;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
     display: flex;
     width: 264px;
 }
