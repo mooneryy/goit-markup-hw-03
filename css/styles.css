@@ -69,6 +69,12 @@
 
  } */
 
+.header-content {
+display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
 
 .studio,
  .portfolio,
@@ -84,13 +90,6 @@
      padding-top: 24px;
         padding-bottom: 24px;
  }
-
-.header-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-}
 
  .header-nav-bar {
      display: flex;
@@ -121,6 +120,9 @@
      
  }
 
+/* .navigation-list:not(:last-child){
+    margin-right: 40px;
+} */
 
  .navigation-list-item {
      margin-left: 73px;
@@ -146,14 +148,15 @@
 
 
  .address {
-      /* display: flex; 
-     gap: 40px;  */
+      display: flex; 
+     gap: 40px; 
      font-style: normal;
  }
 
  .address-list {
      display: flex;
      gap: 40px;
+
      /* padding-top: 24px;
      padding-bottom: 24px;
      gap: 40px; */
