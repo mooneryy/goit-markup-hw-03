@@ -50,10 +50,10 @@
      overflow: hidden;
  }
 
- .section {
+ /* .section {
      padding-top: 120px;
      padding-bottom: 120px;
- }
+ } */
 
  .container {
      max-width: 1158px;
@@ -61,13 +61,6 @@
      padding: 0 15px;
  }
 
- /* .container-container-flex {
-     display: flex;
-     justify-content: space-between;
-     padding-top: 24px;
-     padding-bottom: 24px;
-
- } */
 
  .header-content {
      display: flex;
@@ -119,14 +112,12 @@
 
  }
 
- /* .navigation-list:not(:last-child){
-    margin-right: 40px;
-} */
+ 
 
- .navigation-list-item {
+ /* .navigation-list-item {
      margin-left: 73px;
 
- }
+ } */
 
  .navigation-link-item-name {
      color: #2E2F42;
