@@ -69,12 +69,10 @@
 
  } */
 
-.container-header {
-    max-width: 1158px;
-        margin: 0 auto;
-        padding: 0 15px;
-    display: flex;
+.header-content {
+display: flex;
     justify-content: space-between;
+    align-items: center;
     
 }
 
@@ -89,7 +87,7 @@
      /* padding-top: 24px;
      padding-bottom: 24px; */
      border-bottom: 1px solid #e7e9fc;
-    padding-top: 24px;
+     padding-top: 24px;
         padding-bottom: 24px;
  }
 
@@ -99,58 +97,50 @@
     justify-content: space-between;
  }
 
+.logo-web {
+    color: #4D5AE5;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    /* width: 44px; */
+    /* margin-right: 76px; */
+}
+
+.logo-studio {
+    color: #2E2F42;
+    width: 71px;
+}
 
  .navigation-list {
      display: flex;
      gap: 40px;
-    
-    
-     /* justify-content: flex-start;
-     flex-wrap: wrap;
-     align-content: stretch; */
+     
  }
 
 /* .navigation-list:not(:last-child){
     margin-right: 40px;
 } */
 
- .navigation-list-item:first-child {
+ .navigation-list-item {
      margin-left: 73px;
 
  }
 
  .navigation-link-item-name {
-    display: block;
-    padding: 24px 0;
     color: #2E2F42;
         font-family: Roboto, sans-serif;
         font-size: 16px;
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        text-align: left;
+    padding: 24px 0;
     
  }
 
- .logo-web {
-     color: #4D5AE5;
-     font-family: Raleway, sans-serif;
-     font-size: 18px;
-     font-weight: 700;
-     line-height: 1.17;
-     letter-spacing: 0.03em;
-     text-transform: uppercase;
-     /* width: 44px; */
-     margin-right: 76px;
- }
-
- .logo-studio {
-     color: #2E2F42;
-    width: 71px;
- }
-
-
-
+ 
  .navigation-link-item-name:hover,
  .navigation-link-item-name:focus {
      color: #404BBF;
@@ -158,17 +148,14 @@
 
 
  .address {
-      display: flex; 
-     /* flex-direction: row; */
-     /* margin-left: auto; */
-     gap: 40px; 
-     /* align-self: flex-end; */
+      /* display: flex; 
+     gap: 40px;  */
      font-style: normal;
  }
 
  .address-list {
      display: flex;
-     flex-direction: row;
+     gap: 40px;
      /* padding-top: 24px;
      padding-bottom: 24px;
      gap: 40px; */
