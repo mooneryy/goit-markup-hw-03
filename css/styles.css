@@ -69,58 +69,57 @@
 
  } */
 
-.header-content {
-display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
-}
+ .header-content {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
 
-.studio,
+ }
+
+ .studio,
  .portfolio,
-  .contacts {
-    padding: 120px 0;
-}
-
+ .contacts {
+     padding: 120px 0;
+ }
 
  .page-header {
      /* padding-top: 24px;
      padding-bottom: 24px; */
      border-bottom: 1px solid #e7e9fc;
      padding-top: 24px;
-        padding-bottom: 24px;
+     padding-bottom: 24px;
  }
 
  .header-nav-bar {
      display: flex;
      align-items: center;
-    justify-content: space-between;
+     justify-content: space-between;
  }
 
-.logo-web {
-    color: #4D5AE5;
-    font-family: Raleway, sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    /* width: 44px; */
-    /* margin-right: 76px; */
-}
+ .logo-web {
+     color: #4D5AE5;
+     font-family: Raleway, sans-serif;
+     font-size: 18px;
+     font-weight: 700;
+     line-height: 1.17;
+     letter-spacing: 0.03em;
+     text-transform: uppercase;
+     /* width: 44px; */
+     /* margin-right: 76px; */
+ }
 
-.logo-studio {
-    color: #2E2F42;
-    width: 71px;
-}
+ .logo-studio {
+     color: #2E2F42;
+     width: 71px;
+ }
 
  .navigation-list {
      display: flex;
      gap: 40px;
-     
+
  }
 
-/* .navigation-list:not(:last-child){
+ /* .navigation-list:not(:last-child){
     margin-right: 40px;
 } */
 
@@ -130,17 +129,17 @@ display: flex;
  }
 
  .navigation-link-item-name {
-    color: #2E2F42;
-        font-family: Roboto, sans-serif;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-    padding: 24px 0;
-    
+     color: #2E2F42;
+     font-family: Roboto, sans-serif;
+     font-size: 16px;
+     font-weight: 500;
+     line-height: 1.5;
+     letter-spacing: 0.02em;
+     padding: 24px 0;
+
  }
 
- 
+
  .navigation-link-item-name:hover,
  .navigation-link-item-name:focus {
      color: #404BBF;
@@ -148,15 +147,14 @@ display: flex;
 
 
  .address {
-      display: flex; 
-     gap: 40px; 
+     /* display: flex; 
+     gap: 40px;  */
      font-style: normal;
  }
 
  .address-list {
      display: flex;
      gap: 40px;
-
      /* padding-top: 24px;
      padding-bottom: 24px;
      gap: 40px; */
