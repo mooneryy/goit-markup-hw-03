@@ -325,23 +325,20 @@ img {
 }
 
 .team-list {
+    gap: 24px;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
     margin-left: auto;
-    /* margin-right: auto; */
+    margin-right: auto;
     padding-bottom: 0px;
-    gap: 24px;
     column-gap: 32px;
     
 }
 
-/* .team-list-item:last-child{
-    margin-right: 0;
-} */
 
 .team-list-item {
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100%-72px)/4);
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
     background: var(--WHITE, #FFF);
