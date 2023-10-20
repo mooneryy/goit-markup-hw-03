@@ -61,32 +61,29 @@
      padding: 0 15px;
  }
 
-
- .header-content {
-     display: flex;
-     justify-content: space-between;
-     align-items: center;
-
- }
-
- .studio,
- .portfolio,
- .contacts {
-     padding: 120px 0;
- }
-
  .page-header {
-     /* padding-top: 24px;
-     padding-bottom: 24px; */
      border-bottom: 1px solid #e7e9fc;
      padding-top: 24px;
      padding-bottom: 24px;
  }
 
+ .header-content {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+ /* .studio,
+ .portfolio,
+ .contacts {
+     padding: 120px 0;
+ } */
+
+ 
  .header-nav-bar {
      display: flex;
      align-items: center;
-     justify-content: space-between;
+     /* justify-content: space-between; */
  }
 
  .logo-web {
@@ -98,7 +95,7 @@
      letter-spacing: 0.03em;
      text-transform: uppercase;
      /* width: 44px; */
-     /* margin-right: 76px; */
+     margin-right: 76px; 
  }
 
  .logo-studio {
@@ -130,7 +127,6 @@
 
  }
 
-
  .navigation-link-item-name:hover,
  .navigation-link-item-name:focus {
      color: #404BBF;
@@ -146,9 +142,6 @@
  .address-list {
      display: flex;
      gap: 40px;
-     /* padding-top: 24px;
-     padding-bottom: 24px;
-     gap: 40px; */
  }
 
  .address-list-item-name {
