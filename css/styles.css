@@ -61,7 +61,7 @@ img {
     padding: 0 15px;
 }
 
-.container-header {
+.container-container-flex {
     display: flex;
     justify-content: space-between;
     padding-top: 24px;
@@ -101,6 +101,10 @@ img {
     display: flex;
     flex-direction: row;
     gap: 40px;
+    justify-content: flex-start;
+        flex-wrap: wrap;
+        align-content: stretch;
+    
 }
 
 .navigation-list-item {
@@ -132,15 +136,15 @@ img {
     width: 71px;
 }
 
-.navigation-list {
-    /* display: flex;
+/* .navigation-list {
+     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    /* justify-content: flex-start;
     flex-wrap: wrap;
-    align-content: stretch; */
-    gap: 20px;
-    /* width: calc(100%-(40*2)/3); */
-}
+    align-content: stretch;  */
+    /* gap: 20px;
+    width: calc(100%-(40*2)/3); */ 
+/* } */
 
 .navigation-link-item-name {
     color: #2E2F42;
@@ -164,13 +168,18 @@ img {
     font-style: normal;
 }
 
+.container-container-flex{
+    display: flex;
+}
+
 .address-list {
     display: flex;
-    justify-content: flex-end;
+    flex-direction: row;
+    /* justify-content: flex-end; */
     padding-top: 24px;
     padding-bottom: 24px;
     gap: 40px;
-    width: calc(100%-(40*1)/2);
+    /* width: calc(100%-(40*1)/2); */
 
 }
 
@@ -192,7 +201,9 @@ img {
 
 .hero-section {
     background: #2E2F42;
-    flex-shrink: 0;
+    padding-top: 188px;
+    padding-bottom: 188px;
+    /* flex-shrink: 0; */
 }
 
 .hero-title {
@@ -203,15 +214,18 @@ img {
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    width: 496px;
-    padding-top: 188px;
-    margin-left: 331px;
-    margin-bottom: 48px;
-    margin-right: 472px;
+    max-width: 496px;
+    /* padding-top: 188px; */
+     margin-left: 331px; 
+     margin-bottom: 48px; 
+     margin-right: 472px; 
 }
 
 .hero-button {
-    display: inline-flex;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
     padding: 16px 32px;
     margin-top: 48px;
     margin-left: 480px;
@@ -248,6 +262,8 @@ img {
 
 .benefits-section {
     background: #FFFFFF;
+    padding: 120px 0;
+
 }
 
 .benefits-list {
@@ -264,7 +280,7 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     padding-top: 120px;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
     display: flex;
     width: 264px;
 }
@@ -287,6 +303,7 @@ img {
     background-color: #F4F4FD;
     /* max-width: 1440px;  */
     height: 732px;
+    padding: 120px 0;
     flex-shrink: 0;
 }
 
@@ -300,11 +317,11 @@ img {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    margin-top: 240px;
+    /* margin-top: 240px; */
     margin-bottom: 72px;
     margin-left: 480px;
     margin-right: 480px;
-    padding-top: 120px;
+    /* padding-top: 120px; */
 }
 
 .team-list {
@@ -312,29 +329,39 @@ img {
     flex-wrap: nowrap;
     flex-direction: row;
     margin-left: auto;
-    margin-right: auto;
+    /* margin-right: auto; */
     padding-bottom: 0px;
-    gap: 24px;
+    margin-right: 24px;
     column-gap: 32px;
-    width: calc(100%-(24*3)/4);
+    
+}
+
+.team-list-item:last-child{
+    margin-right: 0;
 }
 
 .team-list-item {
+    width: calc(100%-(3*24)/4);
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
     background: var(--WHITE, #FFF);
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
+.team-name-position {
+    padding: 32px 0;
+}
+
 .team-list-item-name {
     color: #2E2F42;
-    text-align: center;
     font-family: Roboto, sans-serif;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
     margin-top: 32px;
+    text-align: center;
+    margin-bottom: 8px;
 
 }
 
@@ -425,11 +452,11 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     display: inline-block;
-    margin-top: 101.5px;
+    margin-bottom: 16px;
 
 }
 
-.footer-logo-studio {
+.footer-logo-web {
     display: inline-block;
 }
 
@@ -441,7 +468,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     max-width: 264px;
-    margin-top: 17.5px;
-    margin-bottom: 100px;
-    margin-left: 156px;
+    /* margin-top: 17.5px; */ 
+     /* margin-bottom: 100px; */
+     margin-left: 156px; 
 }
