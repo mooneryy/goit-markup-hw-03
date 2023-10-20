@@ -333,12 +333,11 @@ img {
     margin-right: auto;
     padding-bottom: 0px;
     column-gap: 32px;
-    
+    flex-basis: calc((100%-72px)/4);
 }
 
 
 .team-list-item {
-    flex-basis: calc((100%-72px)/4);
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
     background: var(--WHITE, #FFF);
