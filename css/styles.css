@@ -53,7 +53,7 @@ img {
 /* .section {
     padding-top: 120px;
     padding-bottom: 120px;
-} */
+}  */
 
 .container {
     max-width: 1158px;
@@ -73,11 +73,11 @@ img {
     align-items: center;
 }
 
-/* .studio,
+.studio,
  .portfolio,
  .contacts {
      padding: 120px 0;
- } */
+ } 
 
 
 .header-nav-bar {
