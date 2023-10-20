@@ -69,12 +69,6 @@
 
  } */
 
-.header-content {
-display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
-}
 
 .studio,
  .portfolio,
@@ -90,6 +84,13 @@ display: flex;
      padding-top: 24px;
         padding-bottom: 24px;
  }
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
 
  .header-nav-bar {
      display: flex;
@@ -120,9 +121,6 @@ display: flex;
      
  }
 
-/* .navigation-list:not(:last-child){
-    margin-right: 40px;
-} */
 
  .navigation-list-item {
      margin-left: 73px;
