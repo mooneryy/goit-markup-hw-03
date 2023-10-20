@@ -50,10 +50,10 @@
      overflow: hidden;
  }
 
- /* .section {
+ .section {
      padding-top: 120px;
      padding-bottom: 120px;
- } */
+ }
 
  .container {
      max-width: 1158px;
@@ -67,7 +67,7 @@
      padding-bottom: 24px;
  }
 
- .header-content {
+ .container-header-content {
      display: flex;
      justify-content: space-between;
      align-items: center;
