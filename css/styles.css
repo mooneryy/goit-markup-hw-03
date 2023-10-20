@@ -50,10 +50,6 @@ img {
     overflow: hidden;
 }
 
-/* .section {
-    padding-top: 120px;
-    padding-bottom: 120px;
-}  */
 
 .container {
     max-width: 1158px;
@@ -65,12 +61,14 @@ img {
     border-bottom: 1px solid #e7e9fc;
     padding-top: 24px;
     padding-bottom: 24px;
+  
 }
 
 .header-container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    padding-top: 24px;
+        padding-bottom: 24px;
 }
 
 .studio,
@@ -104,6 +102,7 @@ img {
 
 .navigation-list {
     display: flex;
+    flex-direction: row;
     gap: 40px;
     align-items: center;
 }
@@ -121,8 +120,6 @@ img {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    padding: 24px 0;
-
 }
 
 .navigation-link-item-name:hover,
