@@ -59,16 +59,16 @@ img {
 
 .page-header {
     border-bottom: 1px solid #e7e9fc;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    /* padding-top: 24px;
+    padding-bottom: 24px; */
   
 }
 
  .header-container {
     display: flex;
     justify-content: space-between;
-    padding-top: 24px;
-        padding-bottom: 24px;
+    /* padding-top: 24px;
+        padding-bottom: 24px; */
 } 
 
 .studio,
@@ -120,6 +120,8 @@ img {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding: 24px 0;
+    display: block;
 }
 
 .navigation-link-item-name:hover,
