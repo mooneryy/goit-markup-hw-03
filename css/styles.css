@@ -437,8 +437,10 @@ img {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    display: inline-block;
+     margin-bottom: 16px;
+} 
 
-}
 
  .footer-logo-web {
     color: #4D5AE5;
@@ -452,10 +454,10 @@ img {
     margin-bottom: 16px;
 } 
 
-.footer-logo-web {
+/* .footer-logo-web {
     display: inline-block;
     margin-bottom: 16px;
-}
+} */
 
 .footer-text {
     color: #F4F4FD;
